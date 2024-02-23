@@ -22,5 +22,5 @@ jobs:
     - name: Releasing using Hub
       uses: kyze8439690/action-release-releaseapk@master
       env:
-       GITHUB_TOKEN: ${{ secrets.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 }}
+       GITHUB_TOKEN: ${{ secrets.TOKEN }}
        APP_FOLDER: Theoretical-Computer-Science
