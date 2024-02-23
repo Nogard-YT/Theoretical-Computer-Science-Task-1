@@ -27,22 +27,14 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew assembleDebug
 
-    - name: Get Latest Release Tag
-      id: get_latest_tag
-      run: echo ::set-output name=tag::$(git describe --tags `git rev-list --tags --max-count=1`)
-
-    - name: Increment Version
-      id: increment_version
-      run: echo ::set-output name=next_version::$(node -e "const semver = require('semver'); console.log(semver.inc(process.env.VERSION, 'patch'))")
-
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
       with:
-        tag_name: ${{ steps.increment_version.outputs.next_version }}
-        release_name: Release ${{ steps.increment_version.outputs.next_version }}
+        tag_name: v1.0.0
+        release_name: Release 1.0.0 # Name your release
         body: |
           Description of the release goes here.
 
