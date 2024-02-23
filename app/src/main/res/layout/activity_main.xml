@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:padding="16dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_border"
+        android:textStyle="bold" >
+
+      <TableLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:stretchColumns="*">
+
+        <TableRow>
+          <TextView
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:text="X // Y"
+              android:padding="0dp"
+              android:gravity="center"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:text="a"
+              android:gravity="center"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:text="b"
+              android:gravity="center"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:text="c"
+              android:gravity="center"
+              android:textStyle="bold" />
+
+          <TextView
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:text="d"
+              android:gravity="center"
+              android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+          <TextView
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:text="p"
+              android:gravity="center"
+              android:textStyle="bold" />
+
+          <EditText
+              android:id="@+id/input_1_1"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_1_2"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_1_3"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_1_4"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+        </TableRow>
+
+        <TableRow>
+          <TextView
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:text="q"
+              android:gravity="center"
+              android:textStyle="bold" />
+
+          <EditText
+              android:id="@+id/input_2_1"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_2_2"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_2_3"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_2_4"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+        </TableRow>
+
+        <TableRow>
+          <TextView
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:text="r"
+              android:gravity="center"
+              android:textStyle="bold" />
+
+          <EditText
+              android:id="@+id/input_3_1"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_3_2"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_3_3"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_3_4"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+        </TableRow>
+
+        <TableRow>
+          <TextView
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:text="s"
+              android:gravity="center"
+              android:textStyle="bold" />
+
+          <EditText
+              android:id="@+id/input_4_1"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_4_2"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_4_3"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+          <EditText
+              android:id="@+id/input_4_4"
+              android:layout_width="70dp"
+              android:layout_height="50dp"
+              android:background="@drawable/cell_border"
+              android:gravity="center"
+              android:inputType="text|numberDecimal" />
+
+        </TableRow>
+
+      </TableLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/cell_border"
+        android:text="Calculate"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/mutual_entropy_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a) Joint Entropy"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/mutual_entropy"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/mutual_entropy2" />
+
+    <TextView
+        android:id="@+id/mutual_entropy_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="= RESULT"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mutual_information_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="b) Mutual Information"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="32dp" />
+
+    <ImageView
+        android:id="@+id/mutual_information"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/mutual_information" />
+
+    <TextView
+        android:id="@+id/mutual_information_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="= RESULT"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lower_bound_capacity_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="c) Lower bound of the channel capacity\nBlahut-Arimoto Algorithm"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="32dp" />
+
+    <ImageView
+        android:id="@+id/lower_bound_capacity_equation"
+        android:layout_width="202dp"
+        android:layout_height="43dp"
+        android:src="@drawable/c_max" />
+
+    <TextView
+        android:id="@+id/lower_bound_capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="= RESULT"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/copyright_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2023 Nogard"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="64dp" />
+
+  </LinearLayout>
+
+
+
+</ScrollView>
